@@ -1,0 +1,37 @@
+body{
+    background-color:lightgray;
+    /* background-image:url('./images/back4.webp') */
+}
+.card:hover{
+    backGround-color:lightblue;
+}
+.card{
+    box-shadow: 0 0.2rem 0.7rem rgba(183,171,255,0.8);
+}
+.btn-style{
+    font-weight:bold;
+    width: 12rem;
+    height: 5rem;
+    border-radius :2rem;
+    color: #fff;
+    background-color: var(--primary-color);
+    font-size: 2rem;
+    font-family: "Helvetica Neue";
+    text-transform: capitalize;
+    margin-right: 2rem;
+}
+.btn-style:hover{
+    border:0 1rem solid var(--primary-color);
+    background-color:transparent;
+    color: var(--primary-color);
+    box-shadow: 0 0.2rem 0.2rem rgba(183,171,255,0.8);
+}
+.mar-d{
+    padding:30px;
+    margin: 0;
+}
+.form-boundary{
+    border: 1rem solid transparent;
+    margin:50px;
+    
+}

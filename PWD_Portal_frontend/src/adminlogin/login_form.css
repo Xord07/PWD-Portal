@@ -1,0 +1,15 @@
+.form_main{
+    background-color: transparent;
+    border: solid;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 30%;
+}
+h1{
+    text-align: center;
+}
